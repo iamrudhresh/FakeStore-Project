@@ -6,8 +6,6 @@ This project is an SPA developed with React, Axios, and React Router, facilitati
 - React Router
 - Axios (for HTTP requests)
 - Tailwind CSS (for styling)
-- TypeScript
-
 
 ## Features Implemented
 
