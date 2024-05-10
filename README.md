@@ -48,11 +48,11 @@ This will start the application on your local machine, and you can access it in 
     
 ## Dependencies
 
+This project relies on the following dependencies:
+
 - React: A JavaScript library for building user interfaces.
    ##### (https://react.dev/)
-  
 - React Router DOM: A library for routing in React applications. 
    ##### (https://reactrouter.com/en/main)
-
 - FakeStoreAPI: A mock API used to fetch product data.
   ##### (https://fakestoreapi.com/docs)
