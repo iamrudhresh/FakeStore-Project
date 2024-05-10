@@ -1,9 +1,12 @@
-# E-Commerce Web Application
-It is an e-commerce project that allows users to explore and purchase a wide range of products. The project is built using ReactJS and employs state management through Context API. 
+# Single-Page E-Commerce Application
 
 ## Technologies Used
 - React
-- Tailwind CSS
+- React Router
+- Axios (for HTTP requests)
+- Tailwind CSS (for styling)
+- TypeScript
+
 
 ## Features Implemented
 
