@@ -1,18 +1,34 @@
-## Introduction
-It is an e-commerce project that allows users to explore and purchase a wide range of products.
+# E-Commerce Web Application
+It is an e-commerce project that allows users to explore and purchase a wide range of products. The project is built using ReactJS and employs state management through Context API. 
 
-The project is built using ReactJS and employs state management through Context API. 
+## Technologies Used
+- React
+- Tailwind CSS
 
-## Features
+## Features Implemented
 
-### Product List Page
-The home page serves as the entry point to the application and displays a list of all available products. The page includes a dropdown filtering menu that allows users to filter products by category.
-### Product Detail Page
-Clicking on the "Discover Now" button on any product card redirects users to the product detail page. Here, users can view detailed information about the selected product. Additionally, a "Add to Basket" button is available to add the product to the user's shopping basket.
-### Shopping Basket
-The shopping basket can be accessed by clicking on the basket icon in the navigation bar. This page displays a list of selected products in the basket. Each product card includes "Remove" and "Add" buttons, allowing users to decrease or increase the quantity of a particular item. The changes in quantity are reflected in the count displayed on the basket icon in the navigation bar.
-### Order Summary
-Alongside the product listing in the basket page, an order summary card is provided. This card displays the names, category icons, and counts of the products in the basket. The prices of each item are multiplied by their respective counts to show the total price for each product. At the bottom, the total price of all products in the basket is calculated and displayed.
+### 1. Fetch Product Data
+- Utilized Axios to fetch product data from the provided API endpoint.
+
+### 2. Display Products
+- Created components to display products in a grid format.
+- Each product component includes relevant information such as name, price, and image.
+
+### 3. Pagination or Infinite Scrolling
+- Implemented infinite scrolling to load products dynamically as the user scrolls.
+- Enhanced user experience and performance for large product catalogs.
+
+### 4. Product Details Page
+- Developed a separate product details page/component to display comprehensive information about each product.
+- Includes details like description, specifications, and reviews.
+
+### 5. Shopping Cart Functionality
+- Implemented a shopping cart component that allows users to add and remove products.
+- Utilized React state management to maintain the cart state across components.
+
+### 6. Search Functionality
+- Implemented a search component that enables users to search for products by name or description.
+- Product list filters dynamically based on the search query entered by the user.
 
 
 ## Installation
