@@ -28,7 +28,7 @@ git clone https://github.com/bsrakts/adolfha-ecommerce.git
 2. Change to the project directory:
 
 ```bash
-cd adolfha-ecommerce
+cd FakeStore-Project
 ``` 
 
 3. Install the dependencies:
