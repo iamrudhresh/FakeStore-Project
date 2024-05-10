@@ -79,14 +79,13 @@ src/ <br>
 ├── helpers/ <br>
 │   └── apiClient.js  <br>
 └── pages/ <br>
-    ├── Details.jsx <br>
-    └── Home.jsx <br>
+|   ├── Details.jsx <br>
+|   └── Home.jsx <br>
 ├── App.css <br>
 ├── App.js <br>
 ├── App.test.js <br>
 ├── index.css <br>
 ├── index.js <br>
-├── logo.svg <br>
 ├── reportWebVitals.js <br>
 └── setupTests.js <br>
 
