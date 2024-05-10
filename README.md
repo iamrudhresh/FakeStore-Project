@@ -1,10 +1,9 @@
 # Single-Page E-Commerce Application
-This project is an SPA developed with React, Axios, and React Router, facilitating product browsing, details viewing, and shopping cart management via the Fake Store API. With concise component design and efficient routing, it provides users a seamless experience for exploring and purchasing products.
+This project is an SPA developed with React and React Router, facilitating product browsing, details viewing, and shopping cart management via the Fake Store API. With concise component design and efficient routing, it provides users a seamless experience for exploring and purchasing products.
 
 ## Technologies Used
 - React
 - React Router
-- Axios (for HTTP requests)
 - Tailwind CSS (for styling)
 
 ## Features Implemented
