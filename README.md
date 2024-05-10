@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+## Introduction
+It is an e-commerce project that allows users to explore and purchase a wide range of products.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is built using ReactJS and employs state management through Context API. 
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Product List Page
+The home page serves as the entry point to the application and displays a list of all available products. The page includes a dropdown filtering menu that allows users to filter products by category.
+### Product Detail Page
+Clicking on the "Discover Now" button on any product card redirects users to the product detail page. Here, users can view detailed information about the selected product. Additionally, a "Add to Basket" button is available to add the product to the user's shopping basket.
+### Shopping Basket
+The shopping basket can be accessed by clicking on the basket icon in the navigation bar. This page displays a list of selected products in the basket. Each product card includes "Remove" and "Add" buttons, allowing users to decrease or increase the quantity of a particular item. The changes in quantity are reflected in the count displayed on the basket icon in the navigation bar.
+### Order Summary
+Alongside the product listing in the basket page, an order summary card is provided. This card displays the names, category icons, and counts of the products in the basket. The prices of each item are multiplied by their respective counts to show the total price for each product. At the bottom, the total price of all products in the basket is calculated and displayed.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run the this project locally, follow these steps:
 
-### `npm test`
+1. Clone the repository:
+```bash
+git clone https://github.com/bsrakts/adolfha-ecommerce.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+2. Change to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd adolfha-ecommerce
+``` 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+``` 
 
-### `npm run eject`
+4. To start the development server and run the project, execute the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+``` 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will start the application on your local machine, and you can access it in your web browser at http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    
+## Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React: A JavaScript library for building user interfaces.
+   ##### (https://react.dev/)
+  
+- React Router DOM: A library for routing in React applications. 
+   ##### (https://reactrouter.com/en/main)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- FakeStoreAPI: A mock API used to fetch product data.
+  ##### (https://fakestoreapi.com/docs)
