@@ -66,34 +66,29 @@ npm start
 This will start the application on your local machine, and you can access it in your web browser at http://localhost:3000.
 
 # Project Directory Structure
-
-## Public
-- **index.html**
-- **manifest.json**
-- **robots.txt**
-
-## Src
-### Components
-- **Cart.js**
-- **Item.js**
-- **LoadingScreen.js**
-- **Navbar.jsx**
-
-### Helpers
-- **apiClient.js**
-
-### Pages
-- **Details.jsx**
-- **Home.jsx**
-
-- **App.css**
-- **App.js**
-- **App.test.js**
-- **index.css**
-- **index.js**
-- **logo.svg**
-- **reportWebVitals.js**
-- **setupTests.js**
+public/ <br>
+├── index.html <br>
+├── manifest.json <br>
+└── robots.txt <br> 
+src/ <br>
+├── components/ <br>
+│   ├── Cart.js <br>
+│   ├── Item.js <br>
+│   ├── LoadingScreen.js <br>
+│   └── Navbar.jsx <br>
+├── helpers/ <br>
+│   └── apiClient.js  <br>
+└── pages/ <br>
+    ├── Details.jsx <br>
+    └── Home.jsx <br>
+├── App.css <br>
+├── App.js <br>
+├── App.test.js <br>
+├── index.css <br>
+├── index.js <br>
+├── logo.svg <br>
+├── reportWebVitals.js <br>
+└── setupTests.js <br>
 
 
     
